@@ -3,5 +3,5 @@
 FROM rothnic/anaconda-notebook
 MAINTAINER apr
 RUN /bin/bash -c 'source /home/condauser/anaconda3/bin/activate python2'
-RUN conda install jupyter -y
+RUN /bin/bash -c 'conda install jupyter -y'
 
