@@ -9,7 +9,7 @@ docker build -t essgmt5:latest .
 directly from here:
 
 ```
-docker build -t essgmt5:latest https://raw.githubusercontent.com/anrossi/210222-Spring2016/master/gmt5-centos/Dockerfile
+docker build -t essgmt5:latest https://raw.githubusercontent.com/anrossi/docker-essgeo/master/gmt5-centos/Dockerfile
 ```
 
 # run on Windows
