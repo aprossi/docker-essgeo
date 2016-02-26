@@ -16,10 +16,18 @@ docker build -t proj4ubuntu:latest https://raw.githubusercontent.com/anrossi/doc
 
 assuming that in your home  (e..g on Mac ```/Users/myname/```, on Windows ```C:\Users\myname```) you have a directory called ```files-for-docker``` where you will copy, every week, all needed data (input and output).
 
+## Windows7
+
+```
+docker run --rm -i -t -v /c/Users/gerda/files-for-docker:/home/essstudent/shared-folder proj4ubuntu:latest /bin/bash
+
+```
+
+## MacOSX
+
 ```
 docker run --rm -i -t -v ~/files-for-docker:/home/essstudent/shared-folder proj4ubuntu:latest /bin/bash
 ```
-
 
 # References
 
