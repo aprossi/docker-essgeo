@@ -12,10 +12,9 @@ directly from here:
 docker build -t essgmt5:latest https://raw.githubusercontent.com/anrossi/210222-Spring2016/master/gmt5-centos/Dockerfile
 ```
 
-
-# run
+# run on Windows
 ```
-docker run --rm -i -t -v ~/files-for-docker:/home/essstudent/shared-folder essgmt5:latest /bin/bash
+docker run --rm -i -t -v /c/Users/gerda/files-for-docker:/home/essstudent/shared-folder essgmt5:latest /bin/bash
 ```
 
 # test
