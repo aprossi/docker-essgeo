@@ -21,7 +21,12 @@ docker run --rm -i -t -p 8888:8888 \
 ```
 
 # run Jupyter notebook
-
+```
+docker run --rm -i -t -p 8888:8888 \
+-v /c/Users/gerda/files-for-docker:/home/essstudent/shared-folder essanaconda:latest \
+/bin/bash -c 'source /home/condauser/anaconda3/bin/activate python2 && \
+jupyter notebook'
+```
 
 
 
