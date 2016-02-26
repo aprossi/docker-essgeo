@@ -9,8 +9,9 @@ docker build -t proj4ubuntu:latest .
 directly from here:
 
 ```
-docker build -t proj4ubuntu:latest https://raw.githubusercontent.com/anrossi/docker-essgeo/master/proj4ubuntu/Dockerfile
+docker build -t proj4ubuntu:latest https://raw.githubusercontent.com/anrossi/docker-essgeo/master/proj4-ubuntu/Dockerfile
 ```
+
 
 # Run
 
