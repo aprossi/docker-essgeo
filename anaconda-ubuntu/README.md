@@ -13,14 +13,23 @@ docker build -t essanaconda:latest https://raw.githubusercontent.com/anrossi/doc
 ```
 
 
-# run Jupyter notebook
-
-not yet working...
+# to enter the machine 
 ```
 docker run --rm -i -t -p 8888:8888 \
--v ~/files-for-docker:/home/condauser/notebooks essanaconda:latest \
-bash -c 'source /home/condauser/anaconda3/bin/activate python2' \
-&& /home/condauser/anaconda3/envs/python2/bin/ipython notebook
+-v /c/Users/gerda/files-for-docker:/home/essstudent/shared-folder essanaconda:latest \
+/bin/bash
+```
+
+# run Jupyter notebook
+
+
+
+
+<!--```-->
+<!--docker run --rm -i -t -p 8888:8888 \-->
+<!---v /c/Users/gerda/files-for-docker:/home/essstudent/shared-folder essanaconda:latest \-->
+<!--bash -c 'source /home/condauser/anaconda3/bin/activate python2' \-->
+<!--&& /home/condauser/anaconda3/envs/python2/bin/ipython notebook-->
 ```
 
 
