@@ -8,4 +8,5 @@ RUN /bin/bash -c '/home/condauser/anaconda3/bin/conda install pandas -y'
 RUN /bin/bash -c '/home/condauser/anaconda3/bin/conda install pyproj -y'
 RUN /bin/bash -c '/home/condauser/anaconda3/bin/conda install basemap -y'
 RUN /bin/bash -c '/home/condauser/anaconda3/bin/conda install fiona -y'
+RUN /bin/bash -c '/home/condauser/anaconda3/bin/conda install gdal -y'
 
