@@ -20,25 +20,11 @@ docker run --rm -i -t -p 8888:8888 \
 /bin/bash
 ```
 
-# run Jupyter notebook
+To run a Jupyter notebook from the container shell
+
 ```
-docker run --rm -i -t -p 8888:8888 \
--v /c/Users/gerda/files-for-docker:/home/essstudent/shared-folder essanaconda:latest \
-/bin/bash -c 'source /home/condauser/anaconda3/bin/activate python2 && \
-jupyter notebook'
+jupyter notebook
 ```
-
-
-
-<!--```-->
-<!--docker run --rm -i -t -p 8888:8888 \-->
-<!---v /c/Users/gerda/files-for-docker:/home/essstudent/shared-folder essanaconda:latest \-->
-<!--bash -c 'source /home/condauser/anaconda3/bin/activate python2' \-->
-<!--&& /home/condauser/anaconda3/envs/python2/bin/ipython notebook-->
-```
-
-
-
 
 # references
 
