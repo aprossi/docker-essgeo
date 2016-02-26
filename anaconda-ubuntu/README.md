@@ -9,7 +9,7 @@ docker build -t essanaconda:latest .
 directly from here:
 
 ```
-docker build -t essanaconda:latest https://raw.githubusercontent.com/anrossi/210222-Spring2016/master/anaconda-ubuntu/Dockerfile
+docker build -t essanaconda:latest https://raw.githubusercontent.com/anrossi/docker-essgeo/master/anaconda-ubuntu/Dockerfile
 ```
 
 
