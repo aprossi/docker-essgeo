@@ -9,7 +9,7 @@ docker build -t essqgis:latest .
 directly from here:
 
 ```
-docker build -t essqgis:latest https://raw.githubusercontent.com/anrossi/210222-Spring2016/master/qgis-ubuntu/Dockerfile
+docker build -t essqgis:latest https://raw.githubusercontent.com/anrossi/docker-essgeo/master/qgis-ubuntu/Dockerfile
 ```
 
 # Run
