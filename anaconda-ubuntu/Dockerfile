@@ -1,7 +1,6 @@
 # from https://github.com/rothnic/anaconda-notebook
 # see https://github.com/rothnic/anaconda-notebook/blob/master/Dockerfile
 # TAKEN FROM FROM rothnic/anaconda-notebook
-MAINTAINER apr
 ######################################
 FROM ubuntu:latest
 # MAINTAINER Nick Roth "nlr06886@gmail.com"
