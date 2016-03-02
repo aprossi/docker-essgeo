@@ -9,7 +9,7 @@ RUN echo "deb http://ppa.launchpad.net/ubuntugis/ubuntugis-unstable/ubuntu trust
 RUN gpg --keyserver keyserver.ubuntu.com --recv 314DF160
 RUN gpg --export --armor 314DF160 | apt-key add -
 RUN apt-get update -y
-RUN apt-get install libgdall-dev -y
+RUN apt-get install libgdal-dev libgdal1-dev  -y
 
 # install the rest for jupyter
 RUN /bin/bash -c 'source /home/condauser/anaconda3/bin/activate python2'
