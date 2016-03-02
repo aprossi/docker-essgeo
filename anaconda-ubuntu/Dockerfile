@@ -19,7 +19,7 @@ EXPOSE 8888
 # # install the rest for jupyter
 # USER condauser
 USER root
-RUN /bin/bash -c '/opt/conda/bin/conda install jupyter -y'
+# RUN /bin/bash -c '/opt/conda/bin/conda install jupyter -y'
 RUN /bin/bash -c '/opt/conda/bin/conda install pandas -y'
 RUN /bin/bash -c '/opt/conda/bin/conda install pyproj -y'
 RUN /bin/bash -c '/opt/conda/bin/conda install fiona -y'
