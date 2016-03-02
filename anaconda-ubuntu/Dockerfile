@@ -3,6 +3,7 @@ MAINTAINER apr
 EXPOSE 8888
 RUN /bin/bash -c 'source /home/condauser/anaconda3/bin/activate python2'
 RUN /bin/bash -c '/home/condauser/anaconda3/bin/conda install jupyter -y'
+RUN /bin/bash -c '/home/condauser/anaconda3/bin/conda install matplotlib -y'
 RUN /bin/bash -c '/home/condauser/anaconda3/bin/conda install pandas -y'
 RUN /bin/bash -c '/home/condauser/anaconda3/bin/conda install basemap -y'
 RUN /bin/bash -c '/home/condauser/anaconda3/bin//conda install pyproj -y'
