@@ -26,7 +26,7 @@ RUN /bin/bash -c '/opt/conda/bin/conda install fiona -y'
 RUN /bin/bash -c '/opt/conda/bin/conda install gdal -y'
 # RUN /bin/bash -c '/opt/conda/bin/pip install fiona --upgrade'
 RUN /bin/bash -c '/opt/conda/bin/pip install shapely'
-RUN /bin/bash -c '/opt/conda/bin/condaa install basemap -y'
+RUN /bin/bash -c '/opt/conda/bin/conda install basemap -y'
 RUN /bin/bash -c '/opt/conda/bin/pip install geocoder'
 
 # /opt/conda/bin/easy_install
