@@ -3,9 +3,18 @@
 # TAKEN FROM FROM rothnic/anaconda-notebook
 ######################################
 # FROM ubuntu:latest
-FROM continuumio/anaconda
+# FROM continuumio/anaconda
+FROM rothnic/anaconda-notebook
 MAINTAINER apr
 EXPOSE 8888
+
+
+
+
+
+
+
+
 
 # # install gdal
 # USER root
