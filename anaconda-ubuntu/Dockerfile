@@ -9,5 +9,5 @@ RUN /bin/bash -c '/home/condauser/anaconda3/envs/python2/bin/conda install basem
 RUN /bin/bash -c '/home/condauser/anaconda3/envs/python2/bin/conda install pyproj -y'
 RUN /bin/bash -c '//home/condauser/anaconda3/envs/python2/bin/conda install fiona -y'
 RUN /bin/bash -c '/home/condauser/anaconda3/envs/python2/bin/conda install gdal -y'
-RUN /bin/bash -c '/home/condauser/anaconda3/envs/python2/bin/pip install shapely'
+RUN /bin/bash -c '/home/condauser/anaconda3/envs/python2/bin/conda install -c https://conda.anaconda.org/unidata shapely -y'
 RUN /bin/bash -c '/home/condauser/anaconda3/envs/python2/bin/pip install geocoder'
