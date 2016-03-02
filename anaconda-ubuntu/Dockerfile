@@ -4,9 +4,9 @@ FROM rothnic/anaconda-notebook
 MAINTAINER apr
 
 # install gdal
-# RUN echo "deb http://ppa.launchpad.net/ubuntugis/ubuntugis-unstable/ubuntu trusty main" >> /etc/apt/sources.list
-# RUN gpg --keyserver keyserver.ubuntu.com --recv 314DF160
-# RUN gpg --export --armor 314DF160 | sudo apt-key add -
+RUN echo "deb http://ppa.launchpad.net/ubuntugis/ubuntugis-unstable/ubuntu trusty main" >> /etc/apt/sources.list
+RUN gpg --keyserver keyserver.ubuntu.com --recv 314DF160
+RUN gpg --export --armor 314DF160 | sudo apt-key add -
 RUN apt-get update -y
 RUN apt-get install libgdall-dev -y
 
