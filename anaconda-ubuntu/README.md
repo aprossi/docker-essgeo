@@ -26,6 +26,8 @@ To run a Jupyter notebook from the container shell
 jupyter notebook
 ```
 
+it should be reachable on the host machine at the IP of the VM (```XXX.XXX.XXX.XXX:8888```)
+
 # references
 
 * https://hub.docker.com/r/rothnic/anaconda-notebook/
