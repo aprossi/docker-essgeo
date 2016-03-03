@@ -10,6 +10,7 @@ RUN rm epel-release-latest-7.noarch.rpm
 RUN yum install nano -y
 RUN yum install -y GMT gshhg-gmt-nc4 gshhg-gmt-nc4-high dcw-gmt
 RUN yum install -y gshhg-gmt-nc4-full
+RUN yum install -y ghostscript
 
 
 
