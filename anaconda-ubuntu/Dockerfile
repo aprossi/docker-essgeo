@@ -14,7 +14,7 @@ RUN /bin/bash -c '/opt/conda/bin/pip install geocoder'
 
 # add browser
 RUN /bin/bash -c 'apt-get update --fix-missing'
-RUN /bin/bash -c 'apt-get install iceweasel'
+RUN /bin/bash -c 'apt-get install iceweasel -y'
 
 
 # RUN /bin/bash -c 'source /home/condauser/anaconda3/bin/activate python2'
