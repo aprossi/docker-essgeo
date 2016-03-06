@@ -18,6 +18,10 @@ RUN /bin/bash -c 'apt-get --yes --force-yes install iceweasel'
 RUN /bin/bash -c 'apt-get --yes --force-yes install libgdal1'
 # RUN /bin/bash -c 'apt-get --yes --force-yes install libgeos-3.3.3'
 
+# just to make sure..
+ENV PATH /opt/conda/bin:$PATH
+ENV LANG C.UTF-8
+
 # RUN /bin/bash -c 'apt-get install iceweasel --force-yes'
 
 
