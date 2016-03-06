@@ -3,6 +3,10 @@ FROM continuumio/anaconda
 MAINTAINER apr
 EXPOSE 8888
 
+# just to make sure..
+ENV PATH /opt/conda/bin:$PATH
+ENV LANG C.UTF-8
+
 RUN /bin/bash -c '/opt/conda/bin/conda install jupyter -y'
 RUN /bin/bash -c '/opt/conda/bin/conda install pandas -y'
 RUN /bin/bash -c '/opt/conda/bin/conda install basemap -y'
@@ -18,9 +22,7 @@ RUN /bin/bash -c 'apt-get --yes --force-yes install iceweasel'
 RUN /bin/bash -c 'apt-get --yes --force-yes install libgdal1'
 # RUN /bin/bash -c 'apt-get --yes --force-yes install libgeos-3.3.3'
 
-# just to make sure..
-ENV PATH /opt/conda/bin:$PATH
-ENV LANG C.UTF-8
+
 
 # RUN /bin/bash -c 'apt-get install iceweasel --force-yes'
 
