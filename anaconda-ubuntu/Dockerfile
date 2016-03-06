@@ -20,6 +20,7 @@ RUN /bin/bash -c '/opt/conda/bin/pip install geocoder'
 RUN /bin/bash -c 'apt-get update --fix-missing'
 RUN /bin/bash -c 'apt-get --yes --force-yes install iceweasel'
 RUN /bin/bash -c 'apt-get --yes --force-yes install libgdal1'
+RUN /bin/bash -c 'apt-get --yes --force-yes install gdal-bin'
 # RUN /bin/bash -c 'apt-get --yes --force-yes install libgeos-3.3.3'
 
 
